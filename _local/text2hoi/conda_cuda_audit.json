@@ -1,0 +1,74 @@
+{
+  "audit_date": "2026-09-17",
+  "distribution": "Ubuntu",
+  "conda_root": "/home/nmt/miniconda3",
+  "environment_metadata_method": "Read Python distribution metadata, conda-meta JSON, torch/version.py, and runtime shared-library paths without installing packages or changing configuration.",
+  "environments": [
+    {
+      "name": "base",
+      "python": "3.13.13",
+      "torch": null,
+      "torch_cuda_build": null,
+      "cuda_packages_found": false,
+      "nvcc_in_environment_bin": false
+    },
+    {
+      "name": "env_isaaclab",
+      "python": "3.12.14",
+      "torch": "2.10.0+cu128",
+      "torchvision": "0.25.0+cu128",
+      "torch_cuda_build": "12.8",
+      "cuda_runtime_package": "nvidia-cuda-runtime-cu12==12.8.90",
+      "cudnn_package": "nvidia-cudnn-cu12==9.10.2.21",
+      "cublas_package": "nvidia-cublas-cu12==12.8.4.1",
+      "package_manager_for_cuda": "pip, inside Conda environment",
+      "runtime_library": "/home/nmt/miniconda3/envs/env_isaaclab/lib/python3.12/site-packages/nvidia/cuda_runtime/lib/libcudart.so.12",
+      "nvcc_in_environment_bin": false,
+      "conda_cuda_packages": []
+    },
+    {
+      "name": "soma-x",
+      "python": "3.10.21",
+      "torch": "2.10.0+cu128",
+      "torch_cuda_build": "12.8",
+      "cuda_runtime_package": "nvidia-cuda-runtime-cu12==12.8.90",
+      "cudnn_package": "nvidia-cudnn-cu12==9.10.2.21",
+      "cublas_package": "nvidia-cublas-cu12==12.8.4.1",
+      "package_manager_for_cuda": "pip, inside Conda environment",
+      "runtime_library": "/home/nmt/miniconda3/envs/soma-x/lib/python3.10/site-packages/nvidia/cuda_runtime/lib/libcudart.so.12",
+      "nvcc_in_environment_bin": false,
+      "conda_cuda_packages": []
+    },
+    {
+      "name": "text2hoi",
+      "python": "3.8.20",
+      "torch": "1.13.0+cu116",
+      "torchvision": "0.14.0+cu116",
+      "pytorch3d": "0.7.2",
+      "torch_cuda_build": "11.6",
+      "package_manager_for_cuda": "pip, CUDA libraries bundled with torch inside Conda environment",
+      "runtime_library": "/home/nmt/miniconda3/envs/text2hoi/lib/python3.8/site-packages/torch/lib/libcudart-45da57e3.so.11.0",
+      "nvcc_in_environment_bin": false,
+      "conda_cuda_packages": []
+    }
+  ],
+  "text2hoi_loaded_library_probe": {
+    "method": "CUDA float32 matrix multiply and convolution, synchronize, inspect /proc/self/maps",
+    "process_ld_library_path": "/usr/lib/wsl/lib",
+    "configuration_changed": false,
+    "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "matmul_sum": 4096.0,
+    "conv_sum": 324.0,
+    "passed": true,
+    "loaded_libraries": [
+      "/home/nmt/miniconda3/envs/text2hoi/lib/python3.8/site-packages/torch/lib/libcublas.so.11",
+      "/home/nmt/miniconda3/envs/text2hoi/lib/python3.8/site-packages/torch/lib/libcublasLt.so.11",
+      "/home/nmt/miniconda3/envs/text2hoi/lib/python3.8/site-packages/torch/lib/libcudart-45da57e3.so.11.0",
+      "/home/nmt/miniconda3/envs/text2hoi/lib/python3.8/site-packages/torch/lib/libcudnn.so.8",
+      "/home/nmt/miniconda3/envs/text2hoi/lib/python3.8/site-packages/torch/lib/libcudnn_cnn_infer.so.8",
+      "/home/nmt/miniconda3/envs/text2hoi/lib/python3.8/site-packages/torch/lib/libcudnn_ops_infer.so.8",
+      "/usr/lib/wsl/drivers/nvlti.inf_amd64_c284234d5322c92e/libcuda.so.1.1",
+      "/usr/lib/wsl/lib/libcuda.so.1"
+    ]
+  }
+}

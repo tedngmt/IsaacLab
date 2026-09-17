@@ -5,7 +5,16 @@ If the viewer is already running, use that page without starting another instanc
 Stop the viewer with Ctrl+C in its terminal.
 
 The viewer uses the existing `soma-x` Conda environment and reads the sibling
-datasets in `C:\Linux`. It does not change the datasets.
+datasets in `/home/nmt/Projects`, on the native Linux filesystem. It does not
+change the datasets. Its project and dataset paths are resolved relative to the
+viewer script, so keep IsaacLab, SOMA-X, and the dataset folders together.
+
+In Windows Explorer, open `\\wsl.localhost\Ubuntu\home\nmt\Projects\IsaacLab\_local`
+to find `start_viewer.bat`. From an Ubuntu terminal, launch the viewer with:
+
+```bash
+~/miniconda3/envs/soma-x/bin/python /home/nmt/Projects/IsaacLab/_local/mano_soma_viewer.py
+```
 
 - Choose GraspXL or GRAB, select a sequence, then click **Load sequence**.
 - For a loaded GRAB sequence, use **GRAB display** to switch between **Full body**
@@ -28,7 +37,7 @@ Recheck first/middle/last-frame reconstruction for one clip from each dataset,
 including full-body/hand-only mesh indices and unchanged hand/object coordinates:
 
 ```bash
-~/miniconda3/envs/soma-x/bin/python /mnt/c/Linux/IsaacLab/_local/mano_soma_viewer.py --check
+~/miniconda3/envs/soma-x/bin/python /home/nmt/Projects/IsaacLab/_local/mano_soma_viewer.py --check
 ```
 
 The viewer listens only on localhost. Browser rendering has not been visually

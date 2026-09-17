@@ -7,6 +7,10 @@ SPDX-License-Identifier: BSD-3-Clause
 
 # Text2HOI mug feasibility check
 
+**Current setup:** see [INSTALLATION.md](INSTALLATION.md) for the isolated WSL
+environment, asset links, and mug launcher prepared on 2026-09-17. The notes
+below record the earlier source/download feasibility check, before installation.
+
 Checked 2026-09-16 against the [official repository](https://github.com/JunukCha/Text2HOI).
 This is a source/download check, not completed installation or inference.
 

@@ -21,7 +21,7 @@ import trimesh
 import viser
 from scipy.spatial.transform import Rotation
 
-ROOT = Path("/mnt/c/Linux")
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "SOMA-X"))
 from soma._smpl_family_loader import ensure_chumpy_compat
 from soma.hand import SOMAHandLayer

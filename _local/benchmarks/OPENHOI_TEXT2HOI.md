@@ -12,6 +12,12 @@ The goal is to compare generated hand-object motion quality on the local GraspXL
 data. This document and the split manifest are preparation artifacts: no model
 installation, training, or model evaluation was performed in preparing them.
 
+Update 2026-09-17: Text2HOI was installed in its own WSL environment, and one
+released-checkpoint GRAB mug/right-hand demo completed successfully (147 frames).
+See [the local setup and result](../text2hoi/INSTALLATION.md). OpenHOI checkpoint
+availability remains unresolved. GraspXL adaptation and benchmark evaluation
+below are still pending; the GRAB demo is not a GraspXL performance result.
+
 ## Task and experimental order
 
 1. Start with MANO: object geometry and a simple grasp instruction produce a

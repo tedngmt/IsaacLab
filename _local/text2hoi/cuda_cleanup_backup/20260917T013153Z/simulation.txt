@@ -1,0 +1,85 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ca-certificates-java default-jre default-jre-headless fonts-dejavu-extra
+  htop java-common libatk-wrapper-java libatk-wrapper-java-jni libfontenc1
+  libgif7 libice6 libnl-3-200 libnl-genl-3-200 libnspr4 libnss3 libpcsclite1
+  libsm6 libtinfo5 libxaw7 libxcb-icccm4 libxcb-image0 libxcb-render-util0
+  libxcb-util1 libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1 libxft2
+  libxkbcommon-x11-0 libxkbfile1 libxmu6 libxt6 libxxf86dga1 openjdk-11-jre
+  openjdk-11-jre-headless x11-utils
+Use 'apt autoremove' to remove them.
+The following packages will be REMOVED:
+  cuda-cccl-11-8* cuda-command-line-tools-11-8* cuda-compiler-11-8*
+  cuda-cudart-11-8* cuda-cudart-dev-11-8* cuda-cuobjdump-11-8*
+  cuda-cupti-11-8* cuda-cupti-dev-11-8* cuda-cuxxfilt-11-8*
+  cuda-documentation-11-8* cuda-driver-dev-11-8* cuda-gdb-11-8*
+  cuda-libraries-11-8* cuda-libraries-dev-11-8* cuda-memcheck-11-8*
+  cuda-nsight-11-8* cuda-nsight-compute-11-8* cuda-nsight-systems-11-8*
+  cuda-nvcc-11-8* cuda-nvdisasm-11-8* cuda-nvml-dev-11-8* cuda-nvprof-11-8*
+  cuda-nvprune-11-8* cuda-nvrtc-11-8* cuda-nvrtc-dev-11-8* cuda-nvtx-11-8*
+  cuda-nvvp-11-8* cuda-profiler-api-11-8* cuda-sanitizer-11-8*
+  cuda-toolkit-11-8* cuda-toolkit-11-8-config-common*
+  cuda-toolkit-11-config-common* cuda-toolkit-config-common* cuda-tools-11-8*
+  cuda-visual-tools-11-8* gds-tools-11-8* libcublas-11-8* libcublas-dev-11-8*
+  libcufft-11-8* libcufft-dev-11-8* libcufile-11-8* libcufile-dev-11-8*
+  libcurand-11-8* libcurand-dev-11-8* libcusolver-11-8* libcusolver-dev-11-8*
+  libcusparse-11-8* libcusparse-dev-11-8* libnpp-11-8* libnpp-dev-11-8*
+  libnvjpeg-11-8* libnvjpeg-dev-11-8* nsight-compute-2022.3.0*
+  nsight-systems-2022.4.2*
+0 upgraded, 0 newly installed, 54 to remove and 13 not upgraded.
+Purg cuda-toolkit-11-8 [11.8.0-1]
+Purg cuda-tools-11-8 [11.8.0-1]
+Purg cuda-visual-tools-11-8 [11.8.0-1]
+Purg cuda-libraries-dev-11-8 [11.8.0-1]
+Purg cuda-compiler-11-8 [11.8.0-1]
+Purg cuda-nvcc-11-8 [11.8.89-1]
+Purg cuda-cudart-dev-11-8 [11.8.89-1]
+Purg cuda-cccl-11-8 [11.8.89-1]
+Purg cuda-command-line-tools-11-8 [11.8.0-1]
+Purg cuda-libraries-11-8 [11.8.0-1]
+Purg cuda-cudart-11-8 [11.8.89-1]
+Purg cuda-gdb-11-8 [11.8.86-1]
+Purg cuda-cuobjdump-11-8 [11.8.86-1]
+Purg cuda-cupti-dev-11-8 [11.8.87-1]
+Purg cuda-cupti-11-8 [11.8.87-1]
+Purg cuda-cuxxfilt-11-8 [11.8.86-1]
+Purg cuda-documentation-11-8 [11.8.86-1]
+Purg cuda-driver-dev-11-8 [11.8.89-1]
+Purg cuda-memcheck-11-8 [11.8.86-1]
+Purg cuda-nsight-11-8 [11.8.86-1]
+Purg cuda-nsight-compute-11-8 [11.8.0-1]
+Purg cuda-nsight-systems-11-8 [11.8.0-1]
+Purg cuda-nvdisasm-11-8 [11.8.86-1]
+Purg cuda-nvml-dev-11-8 [11.8.86-1]
+Purg cuda-nvprof-11-8 [11.8.87-1]
+Purg cuda-nvprune-11-8 [11.8.86-1]
+Purg cuda-nvrtc-dev-11-8 [11.8.89-1]
+Purg cuda-nvrtc-11-8 [11.8.89-1]
+Purg cuda-nvtx-11-8 [11.8.86-1]
+Purg cuda-nvvp-11-8 [11.8.87-1]
+Purg cuda-profiler-api-11-8 [11.8.86-1]
+Purg cuda-sanitizer-11-8 [11.8.86-1]
+Purg libnvjpeg-dev-11-8 [11.9.0.86-1]
+Purg libnvjpeg-11-8 [11.9.0.86-1]
+Purg libnpp-dev-11-8 [11.8.0.86-1]
+Purg libnpp-11-8 [11.8.0.86-1]
+Purg cuda-toolkit-11-8-config-common [11.8.89-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcusolver-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 libcusparse-11-8:amd64 ]
+Purg libcusparse-dev-11-8 [11.7.5.86-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcusolver-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 libcusparse-11-8:amd64 ]
+Purg libcusparse-11-8 [11.7.5.86-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcusolver-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 ]
+Purg cuda-toolkit-11-config-common [11.8.89-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcusolver-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 ]
+Purg libcusolver-dev-11-8 [11.4.1.48-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcusolver-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 ]
+Purg libcusolver-11-8 [11.4.1.48-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 ]
+Purg cuda-toolkit-config-common [13.4.49-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 ]
+Purg gds-tools-11-8 [1.4.0.31-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 ]
+Purg libcublas-dev-11-8 [11.11.3.6-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcufft-11-8:amd64 libcublas-11-8:amd64 ]
+Purg libcublas-11-8 [11.11.3.6-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcufft-11-8:amd64 ]
+Purg libcufft-dev-11-8 [10.9.0.58-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 libcufft-11-8:amd64 ]
+Purg libcufft-11-8 [10.9.0.58-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 ]
+Purg libcufile-dev-11-8 [1.4.0.31-1] [libcurand-11-8:amd64 libcufile-11-8:amd64 ]
+Purg libcufile-11-8 [1.4.0.31-1] [libcurand-11-8:amd64 ]
+Purg libcurand-dev-11-8 [10.3.0.86-1] [libcurand-11-8:amd64 ]
+Purg libcurand-11-8 [10.3.0.86-1]
+Purg nsight-compute-2022.3.0 [2022.3.0.22-1]
+Purg nsight-systems-2022.4.2 [2022.4.2.50-32196742v0]
