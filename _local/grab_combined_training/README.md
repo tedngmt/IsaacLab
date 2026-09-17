@@ -215,3 +215,20 @@ Details are in `precommit_check.log`.
 
 The full 100-epoch run has not started. Neither these short checks nor the planned
 training budget establish reliable grasp performance.
+
+Video exports of this pilot are in [share/](share/). The combined
+`GRAB_Mug_Pilot_Comparison.mp4` shows original recorded GRAB motion, the selected
+epoch-0 reference controller, and the latest epoch-2 PPO controller side by side.
+Individual videos cover eight validation recordings and all 18 evaluated windows.
+The top row uses a shared fixed world camera with the table visible; the lower
+row follows each mug's handle while preserving its actual tilt. Failed rollouts
+hold the last valid state with a red label, and title cards mark physics resets
+between windows. These are recorded simulator states, not mesh playback presented
+as successful physics. The original column uses personalized MANO geometry;
+the two physics columns use the actual GraspXL hand's segmented visual meshes.
+
+`export_rollouts.py` reproduces both checkpoint evaluations exactly, with no
+training or test-set evaluation. `render_results.py` renders those saved states,
+and `package_result_videos.py` checks video metadata and creates the shareable
+MP4s and ZIP. The captions deliberately identify this two-epoch pilot and must
+be updated before using the renderer for a later experiment.
