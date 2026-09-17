@@ -64,3 +64,8 @@ two-iteration Cartpole GPU training check (512 steps, exit code 0). See
 `migration/viewer_check.log`, `migration/text2hoi_mug.log`, and
 `migration/cartpole_check.log`. This verifies the migrated runtime, not a GraspXL
 training implementation or its model performance.
+
+The subsequent [GraspXL mug pilot](graspxl_mug/README.md) fine-tuned Text2HOI,
+generated a fresh mug motion, and completed a 150-step kinematic replay in the
+IsaacLab Newton backend. It is a separate model-training/interface test; physical
+grasp-control training remains a separate task.

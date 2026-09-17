@@ -34,17 +34,6 @@ SOMA_ROOT = ROOT / "GraspXL_SOMA_51Objects_GRABMatched"
 GRAB_ROOT = ROOT / "GRAB_SOMA_51Objects"
 
 
-def _object_rotation(kind: str, rotvec: np.ndarray) -> np.ndarray:
-    """Return active object rotation matrices from each dataset's convention.
-
-    GRAB's official ObjectModel applies row vertices @ Rodrigues(rotvec),
-    whereas GraspXL applies row vertices @ Rodrigues(rotvec).T. The returned
-    matrices always use world_vertices = vertices @ rotation.T + translation.
-    """
-    rotation = Rotation.from_rotvec(rotvec).as_matrix()
-    return np.swapaxes(rotation, -1, -2) if kind == "GRAB" else rotation
-
-
 class Sequence:
     def __init__(self, kind, entry, device):
         self.kind, self.device = kind, device
@@ -161,7 +150,7 @@ class Sequence:
                 betas=torch.zeros(1, 10, device=self.device),
             ).vertices
             fitted = replay(self.layer, m, np.array([index]))["vertices"]
-        rot = _object_rotation(self.kind, m["object_rot"][index].reshape(3))
+        rot = Rotation.from_rotvec(m["object_rot"][index].reshape(3)).as_matrix()
         obj = np.asarray(self.mesh.vertices) @ rot.T + m["object_trans"][index].reshape(3)
         return source[0].cpu().numpy(), fitted[0].cpu().numpy(), obj
 

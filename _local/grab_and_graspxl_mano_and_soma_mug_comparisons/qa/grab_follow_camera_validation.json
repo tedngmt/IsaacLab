@@ -1,0 +1,2125 @@
+{
+  "passed": true,
+  "audit_revision": "official_grab_object_rotation_v2_follow_camera",
+  "grab_clips": 44,
+  "graspxl_specs_unchanged_clips": 18,
+  "source_object_rotation_convention": "GRAB official ObjectModel: row vertices @ Rodrigues(source_rotvec); cached active matrix is its transpose",
+  "all_grab_overview_geometry_inside": true,
+  "all_grab_mug_bounds_inside_detail": true,
+  "world_up_fixed_elevation_all_frames": true,
+  "lag_and_yaw_bounds_pass": true,
+  "clips": [
+    {
+      "clip_id": "s1__mug_drink_1",
+      "cache_sha256": "b7a2401a0dbf77727a1e88e3dbf60f507a45220779db3dfe56e34e6ec8a61fa8",
+      "cache_schema_version": 2,
+      "frames": 334,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000094,
+        "position_lag_mean_m": 0.012091698668666991,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.06302178540232233,
+          0.06014739911935632
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5982521300838024,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.5608485914137952,
+      "handle_plane_alignment_p10": 0.7941548517655228,
+      "handle_plane_alignment_mean": 0.856815345602061,
+      "source_mug_tilt_range_degrees": [
+        0.10620010323237929,
+        99.68528225978143
+      ]
+    },
+    {
+      "clip_id": "s1__mug_drink_2",
+      "cache_sha256": "477cd21ef1e8bbecae9fd1aed4ec0bc57fd081e71724b66e4d53b430563574d1",
+      "cache_schema_version": 2,
+      "frames": 377,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000011,
+        "position_lag_mean_m": 0.011319450086647219,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.000000000000001,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.039128175488002924,
+          0.07637681075854003
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6820550271571488,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.6475641228335787,
+      "handle_plane_alignment_p10": 0.7926880790770084,
+      "handle_plane_alignment_mean": 0.853636926788155,
+      "source_mug_tilt_range_degrees": [
+        0.18695599270985952,
+        101.96624117747632
+      ]
+    },
+    {
+      "clip_id": "s1__mug_drink_3",
+      "cache_sha256": "63af416a58b40a40a12501c2e440d2cc47a6ed7145c5d2ecc7dd461300cfd168",
+      "cache_schema_version": 2,
+      "frames": 309,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.012020216560382442,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.04442463172451341,
+          0.06900163066778915
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6263466807477176,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.6282899617590103,
+      "handle_plane_alignment_p10": 0.7610006821549207,
+      "handle_plane_alignment_mean": 0.8521392493752792,
+      "source_mug_tilt_range_degrees": [
+        0.08842519191948248,
+        113.49752242471274
+      ]
+    },
+    {
+      "clip_id": "s1__mug_drink_4",
+      "cache_sha256": "fcb8796ad430c52b29b807b9ddc346f2381aca50cef78bbd656a00aa3d715603",
+      "cache_schema_version": 2,
+      "frames": 300,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000007,
+        "position_lag_mean_m": 0.015469525954305787,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.055005214850843205,
+          0.0745712407767085
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6555456027962876,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.7086958396686738,
+      "handle_plane_alignment_p10": 0.7995081244805758,
+      "handle_plane_alignment_mean": 0.8803502233414296,
+      "source_mug_tilt_range_degrees": [
+        0.44524988086730377,
+        115.28428895099646
+      ]
+    },
+    {
+      "clip_id": "s1__mug_lift",
+      "cache_sha256": "0973454d12ef6a1d275c50f05625c5032e3eb0df275ea96ca9fa79dc35ddcec8",
+      "cache_schema_version": 2,
+      "frames": 1062,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.012829901440501291,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.021678386285950934,
+          0.07237043995685652
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6650511108389444,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.6425340899124132,
+      "handle_plane_alignment_p10": 0.7988585036963702,
+      "handle_plane_alignment_mean": 0.834636780237588,
+      "source_mug_tilt_range_degrees": [
+        0.10954724759571559,
+        38.50958498791305
+      ]
+    },
+    {
+      "clip_id": "s1__mug_offhand_1",
+      "cache_sha256": "7fc17451be2177e37c02659e66607d654af52f89421302b8576807c2abd07aa9",
+      "cache_schema_version": 2,
+      "frames": 274,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000009,
+        "position_lag_mean_m": 0.013509048584374414,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.000000000000001,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.05663997698592445,
+          0.04926086772061644
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5664098401524933,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.5765267963513879,
+      "handle_plane_alignment_p10": 0.7577755905740987,
+      "handle_plane_alignment_mean": 0.8313829638793405,
+      "source_mug_tilt_range_degrees": [
+        0.2326447574371989,
+        35.422665348243754
+      ]
+    },
+    {
+      "clip_id": "s1__mug_pass_1",
+      "cache_sha256": "8437823a57665e6d972d3d5820af82ddb450f76a4dd7928889fc6f9407ae8d37",
+      "cache_schema_version": 2,
+      "frames": 234,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000008,
+        "position_lag_mean_m": 0.01433494326712324,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.06409578738410604,
+          0.050670348344027186
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5464471550887263,
+      "max_overview_screen_norm": 0.9090909090909097,
+      "handle_plane_alignment_min": 0.4381818304071987,
+      "handle_plane_alignment_p10": 0.7636696139340629,
+      "handle_plane_alignment_mean": 0.8420213294886317,
+      "source_mug_tilt_range_degrees": [
+        0.6349363281683402,
+        22.889517913545173
+      ]
+    },
+    {
+      "clip_id": "s1__mug_toast_1",
+      "cache_sha256": "521399e898ec12a7e000e63ff4d454d9f64e623df2e5f0e35f9e49a663f45639",
+      "cache_schema_version": 2,
+      "frames": 337,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.0350000000000001,
+        "position_lag_mean_m": 0.01698203060562343,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.06972661251033076,
+          0.06319658993615729
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6199384403492262,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.752127499571556,
+      "handle_plane_alignment_p10": 0.8214002331996426,
+      "handle_plane_alignment_mean": 0.8656768062600857,
+      "source_mug_tilt_range_degrees": [
+        0.10505138446770697,
+        116.07924542948058
+      ]
+    },
+    {
+      "clip_id": "s10__mug_drink_1",
+      "cache_sha256": "c88186e3be9ca4556a1501ddd7f131562721c3d73bf647829a1e1de0c37b75d2",
+      "cache_schema_version": 2,
+      "frames": 202,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000008,
+        "position_lag_mean_m": 0.012898219258908074,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.04469577525331915,
+          0.07048272096132031
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6591632328610232,
+      "max_overview_screen_norm": 0.9090909090909094,
+      "handle_plane_alignment_min": 0.7884156527501762,
+      "handle_plane_alignment_p10": 0.8055087210683576,
+      "handle_plane_alignment_mean": 0.8412305506222241,
+      "source_mug_tilt_range_degrees": [
+        0.09695050121565582,
+        97.58104497883025
+      ]
+    },
+    {
+      "clip_id": "s10__mug_drink_2",
+      "cache_sha256": "2e900dcb8aab30fcc03f1eaaa040edf8e3c655ea4f837d9d0f3cd0db32b80689",
+      "cache_schema_version": 2,
+      "frames": 220,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000008,
+        "position_lag_mean_m": 0.012636454647269271,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 32,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 2,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.04538533186425402,
+          0.0677195609620564
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6088548307544586,
+      "max_overview_screen_norm": 0.9090909090909097,
+      "handle_plane_alignment_min": 0.16643910116544408,
+      "handle_plane_alignment_p10": 0.3069463986697619,
+      "handle_plane_alignment_mean": 0.7114671916489554,
+      "source_mug_tilt_range_degrees": [
+        0.03955343671814435,
+        108.54656493095766
+      ]
+    },
+    {
+      "clip_id": "s10__mug_lift",
+      "cache_sha256": "620f1dc3917a0b2d4ba432987a2b147936f341f8cea97987d4adba03c6e65126",
+      "cache_schema_version": 2,
+      "frames": 571,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000011,
+        "position_lag_mean_m": 0.009071236748394194,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.000000000000017,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.050501364342822305,
+          0.06951784937153688
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6223398151077449,
+      "max_overview_screen_norm": 0.9090909090909094,
+      "handle_plane_alignment_min": 0.003623873074094487,
+      "handle_plane_alignment_p10": 0.8207397269021957,
+      "handle_plane_alignment_mean": 0.8134870427929027,
+      "source_mug_tilt_range_degrees": [
+        0.037682839426178574,
+        15.418346793571121
+      ]
+    },
+    {
+      "clip_id": "s10__mug_pass_1",
+      "cache_sha256": "daa291a2e714883540ca697d241d35497b91699f0429f611931d20b16d3b3c6b",
+      "cache_schema_version": 2,
+      "frames": 196,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000009,
+        "position_lag_mean_m": 0.011662605453761618,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.3211112968277203,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": -1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.0219309728321496,
+          0.07089648741839134
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6823704227720014,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.7690470247784753,
+      "handle_plane_alignment_p10": 0.8249293555420687,
+      "handle_plane_alignment_mean": 0.8514284091225841,
+      "source_mug_tilt_range_degrees": [
+        0.0732450741551932,
+        56.057438098280464
+      ]
+    },
+    {
+      "clip_id": "s10__mug_toast_1",
+      "cache_sha256": "13f5d5602ddb09c977637ffc701729c24d750a704a269580576a6e81a738e391",
+      "cache_schema_version": 2,
+      "frames": 181,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.012870108784467664,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.466777756816908,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.049055905261550035,
+          0.06861834204772585
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.646520587544511,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.6883975189081375,
+      "handle_plane_alignment_p10": 0.7336611074328191,
+      "handle_plane_alignment_mean": 0.8246044634900779,
+      "source_mug_tilt_range_degrees": [
+        0.04578423880022069,
+        39.948145400043245
+      ]
+    },
+    {
+      "clip_id": "s2__mug_drink_1",
+      "cache_sha256": "37d2ee5df11110447d132ca9229542d61d56b0c54d3d85051a5ad6884db807b3",
+      "cache_schema_version": 2,
+      "frames": 249,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.009977843981262016,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.0445560213644761,
+          0.0697546401789012
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6583608082935596,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.803538124262008,
+      "handle_plane_alignment_p10": 0.8323429457366323,
+      "handle_plane_alignment_mean": 0.8606789514073983,
+      "source_mug_tilt_range_degrees": [
+        0.03770771264073219,
+        96.94854881481751
+      ]
+    },
+    {
+      "clip_id": "s2__mug_drink_2",
+      "cache_sha256": "74ffe50c599306ad33e9e6d5e24b5c4a0141ec1d20d4b1ab978274c45ff989fa",
+      "cache_schema_version": 2,
+      "frames": 286,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.009395931803399685,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.5656716740993795,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.02065666958996864,
+          0.06886621725384517
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6372959495028322,
+      "max_overview_screen_norm": 0.9090909090909097,
+      "handle_plane_alignment_min": 0.5648408543706211,
+      "handle_plane_alignment_p10": 0.7369021998940302,
+      "handle_plane_alignment_mean": 0.8291418307445321,
+      "source_mug_tilt_range_degrees": [
+        0.06367721908839327,
+        79.56852037271163
+      ]
+    },
+    {
+      "clip_id": "s2__mug_lift",
+      "cache_sha256": "922bda19fefb81f5dc335ab6eaa89011bc2a6c2b719292979380222ab0d2489b",
+      "cache_schema_version": 2,
+      "frames": 502,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.01058981687903255,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.01890723463330283,
+          0.06956303560558141
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6767659053032927,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.08199485671748907,
+      "handle_plane_alignment_p10": 0.8118876903736384,
+      "handle_plane_alignment_mean": 0.8267272784488,
+      "source_mug_tilt_range_degrees": [
+        0.2146749743882852,
+        124.31471213315177
+      ]
+    },
+    {
+      "clip_id": "s2__mug_pass_1",
+      "cache_sha256": "ef41f1310f7d14c7a986edb15e9c45bdc2ad1100476b0197a5febbf454a7ebbd",
+      "cache_schema_version": 2,
+      "frames": 259,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000008,
+        "position_lag_mean_m": 0.012876084070400466,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": -1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.06615736323670013,
+          0.06564660361797298
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6662401772030987,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.266220186606804,
+      "handle_plane_alignment_p10": 0.6051100890496984,
+      "handle_plane_alignment_mean": 0.7852050463989447,
+      "source_mug_tilt_range_degrees": [
+        0.2533024310411047,
+        14.607470341931231
+      ]
+    },
+    {
+      "clip_id": "s2__mug_toast_1",
+      "cache_sha256": "889f3afdb8d5dff7c46e350e8a0750aaef1e85918c200308fc3acffd9b8c9298",
+      "cache_schema_version": 2,
+      "frames": 239,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.0350000000000001,
+        "position_lag_mean_m": 0.008105425108009642,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 1.9109475775209077,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.023524385322860462,
+          0.057314162415192535
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5947232024275628,
+      "max_overview_screen_norm": 0.9090909090909094,
+      "handle_plane_alignment_min": 0.7744080076357569,
+      "handle_plane_alignment_p10": 0.8330818255651131,
+      "handle_plane_alignment_mean": 0.8449772653969677,
+      "source_mug_tilt_range_degrees": [
+        0.24039041021367244,
+        12.599491871470681
+      ]
+    },
+    {
+      "clip_id": "s3__mug_drink_1",
+      "cache_sha256": "37a3506086d5847f47dbd1cfe8f8b3361ba04bebf15217dcccd0092f6e022432",
+      "cache_schema_version": 2,
+      "frames": 239,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000007,
+        "position_lag_mean_m": 0.008892008098355863,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.8298471288074087,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.032780866256710596,
+          0.07626227289069479
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6811489546987692,
+      "max_overview_screen_norm": 0.90909090909091,
+      "handle_plane_alignment_min": 0.7156721525805437,
+      "handle_plane_alignment_p10": 0.8072351792565529,
+      "handle_plane_alignment_mean": 0.8421321438135907,
+      "source_mug_tilt_range_degrees": [
+        0.28748809026859246,
+        82.47197080820979
+      ]
+    },
+    {
+      "clip_id": "s3__mug_drink_2",
+      "cache_sha256": "3ded21f1d39d319592d28cf3404298e6fa57602b717c5c5222f937a6ae94050a",
+      "cache_schema_version": 2,
+      "frames": 206,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000011,
+        "position_lag_mean_m": 0.009447762014470056,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.02211321965408422,
+          0.06999519383935873
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6404115810084126,
+      "max_overview_screen_norm": 0.9090909090909097,
+      "handle_plane_alignment_min": 0.32812984401464484,
+      "handle_plane_alignment_p10": 0.7362595018277562,
+      "handle_plane_alignment_mean": 0.8032688787815494,
+      "source_mug_tilt_range_degrees": [
+        0.12910400748609924,
+        89.33180535373067
+      ]
+    },
+    {
+      "clip_id": "s3__mug_drink_3",
+      "cache_sha256": "b5cfd3d802561768cd3a4de22ad9b0aaabe307daa8a0e2af4624857ad4a492d1",
+      "cache_schema_version": 2,
+      "frames": 229,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000094,
+        "position_lag_mean_m": 0.009588199581509188,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.04142670756259708,
+          0.0674570081859513
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6697875827095557,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.5029153247136839,
+      "handle_plane_alignment_p10": 0.7565171036553533,
+      "handle_plane_alignment_mean": 0.8213969693767713,
+      "source_mug_tilt_range_degrees": [
+        0.29645804566843165,
+        87.93851905652313
+      ]
+    },
+    {
+      "clip_id": "s3__mug_drink_4",
+      "cache_sha256": "286c628363a960c5906df258465cf513f270e15a197b29821262c8a75eae5b07",
+      "cache_schema_version": 2,
+      "frames": 226,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000011,
+        "position_lag_mean_m": 0.010419547004326861,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.071539840730881,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.022059810258037858,
+          0.07015769263037591
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6204316896717678,
+      "max_overview_screen_norm": 0.9090909090909094,
+      "handle_plane_alignment_min": 0.430155249758545,
+      "handle_plane_alignment_p10": 0.6798190878483805,
+      "handle_plane_alignment_mean": 0.8174602021703942,
+      "source_mug_tilt_range_degrees": [
+        0.32409242401243216,
+        80.68755577071198
+      ]
+    },
+    {
+      "clip_id": "s3__mug_offhand_1",
+      "cache_sha256": "b7e94ccd155a3982ec75a3535582aa2e3ed9cbad170c06a12ea62369dc399ba5",
+      "cache_schema_version": 2,
+      "frames": 246,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000011,
+        "position_lag_mean_m": 0.01114475771723708,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 10,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.060500857470484476,
+          0.06919386186842706
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.579626021440312,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.4382296935431866,
+      "handle_plane_alignment_p10": 0.8260996746333553,
+      "handle_plane_alignment_mean": 0.8313509459669978,
+      "source_mug_tilt_range_degrees": [
+        0.29612704272220286,
+        89.38785802153284
+      ]
+    },
+    {
+      "clip_id": "s3__mug_pass_1",
+      "cache_sha256": "5e7cd45369aa862b324e795dd05f45fb6a67d567fa5e190de4912ee38fa7fc5a",
+      "cache_schema_version": 2,
+      "frames": 283,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000005,
+        "position_lag_mean_m": 0.008466649398904208,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.04387676310713777,
+          0.026872403904527657
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5488583711278765,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.3197048439606747,
+      "handle_plane_alignment_p10": 0.8193140726403222,
+      "handle_plane_alignment_mean": 0.8401130413601626,
+      "source_mug_tilt_range_degrees": [
+        0.42854755324792587,
+        23.69707738386912
+      ]
+    },
+    {
+      "clip_id": "s4__mug_drink_2",
+      "cache_sha256": "2c3dfb169fc4297555bf5ef38f020faafaa87a3fc8fc13e3ef337afa2e138665",
+      "cache_schema_version": 2,
+      "frames": 181,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.012891671384110317,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.025143499934453625,
+          0.07200341908373864
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6573790974555177,
+      "max_overview_screen_norm": 0.9090909090909098,
+      "handle_plane_alignment_min": 0.6068735283411079,
+      "handle_plane_alignment_p10": 0.8033738697354528,
+      "handle_plane_alignment_mean": 0.8517399541641321,
+      "source_mug_tilt_range_degrees": [
+        0.18656975689843472,
+        82.1225207546656
+      ]
+    },
+    {
+      "clip_id": "s4__mug_pass_1",
+      "cache_sha256": "5ecf9ae4a15e7138d827eadd35826ae22ecbf9826d59a969a826af279bb0c7f9",
+      "cache_schema_version": 2,
+      "frames": 156,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000045,
+        "position_lag_mean_m": 0.014381598119213416,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.000000000000001,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": -1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.0763045096998319,
+          0.04646678863528631
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5630819091736745,
+      "max_overview_screen_norm": 0.9090909090909097,
+      "handle_plane_alignment_min": 0.009579428472830125,
+      "handle_plane_alignment_p10": 0.19887038804958576,
+      "handle_plane_alignment_mean": 0.725891090127561,
+      "source_mug_tilt_range_degrees": [
+        0.4960927975802212,
+        22.337904444010793
+      ]
+    },
+    {
+      "clip_id": "s5__mug_drink_1",
+      "cache_sha256": "5252334ff7d6989b1cca8b1bbde8e900390911b97e752ddccd49976678ad9fb2",
+      "cache_schema_version": 2,
+      "frames": 182,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.010471558728628563,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.05006555236262928,
+          0.06615040224916252
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.64910272338202,
+      "max_overview_screen_norm": 0.90909090909091,
+      "handle_plane_alignment_min": 0.7407792059504942,
+      "handle_plane_alignment_p10": 0.7757632041314594,
+      "handle_plane_alignment_mean": 0.8335175432244512,
+      "source_mug_tilt_range_degrees": [
+        0.14203204223769036,
+        100.07694663977921
+      ]
+    },
+    {
+      "clip_id": "s5__mug_pass_1",
+      "cache_sha256": "61b6d8faa9600b87b5f5432597ab0f510fc5ac0fda050a4ddb5095f16d2f89d8",
+      "cache_schema_version": 2,
+      "frames": 202,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000094,
+        "position_lag_mean_m": 0.010186192481001033,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.03863775654567071,
+          0.03788076920011199
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5963376343905202,
+      "max_overview_screen_norm": 0.9090909090909097,
+      "handle_plane_alignment_min": 0.1755171841976751,
+      "handle_plane_alignment_p10": 0.6858934647097866,
+      "handle_plane_alignment_mean": 0.8076344956927108,
+      "source_mug_tilt_range_degrees": [
+        0.030525537092764687,
+        38.77959709444598
+      ]
+    },
+    {
+      "clip_id": "s5__mug_toast_1",
+      "cache_sha256": "7ae2b145935e4e2bc30ec4152d41010b61b4581bc527292e8d02444e7f5f8be4",
+      "cache_schema_version": 2,
+      "frames": 201,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.011704971876578246,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": -1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.02881657817551278,
+          0.07261217333366396
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6715739738023883,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.684775561895329,
+      "handle_plane_alignment_p10": 0.7618922860115483,
+      "handle_plane_alignment_mean": 0.8307938028665557,
+      "source_mug_tilt_range_degrees": [
+        0.07086735192821667,
+        26.018408564330706
+      ]
+    },
+    {
+      "clip_id": "s6__mug_drink_2",
+      "cache_sha256": "b57484c1213e19e36655c971a79ee41ac272ec6b1e724ee2d75241a14eb7fd2a",
+      "cache_schema_version": 2,
+      "frames": 259,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000009,
+        "position_lag_mean_m": 0.008636099509273338,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.048538227802097,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.018343274135303976,
+          0.0701734444879876
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6107354657347817,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.8352880481591836,
+      "handle_plane_alignment_p10": 0.8358046632075772,
+      "handle_plane_alignment_mean": 0.8606598040127246,
+      "source_mug_tilt_range_degrees": [
+        0.06709736901966014,
+        48.09502025677961
+      ]
+    },
+    {
+      "clip_id": "s6__mug_lift",
+      "cache_sha256": "c45c4ecd2601c6ecb5656b3ff7a4f19101b7c5e204fd386849238d6c3f1db84b",
+      "cache_schema_version": 2,
+      "frames": 581,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000094,
+        "position_lag_mean_m": 0.009035361605037503,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.018730018838860808,
+          0.07169764693675923
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6230452666729436,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.6266672332471918,
+      "handle_plane_alignment_p10": 0.7911960798039298,
+      "handle_plane_alignment_mean": 0.8326923600940191,
+      "source_mug_tilt_range_degrees": [
+        0.09634333391331754,
+        20.101635998615222
+      ]
+    },
+    {
+      "clip_id": "s6__mug_pass_1",
+      "cache_sha256": "1add924f17b7cae2a5c57ea6233d7f079d4152880a04ec4af6ee313adf42fe2d",
+      "cache_schema_version": 2,
+      "frames": 283,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000006,
+        "position_lag_mean_m": 0.0106277668692359,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.06155212141655227,
+          0.057460526563654316
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5907901317016049,
+      "max_overview_screen_norm": 0.9090909090909097,
+      "handle_plane_alignment_min": 0.7132178170238737,
+      "handle_plane_alignment_p10": 0.8073935567603336,
+      "handle_plane_alignment_mean": 0.8411356999079719,
+      "source_mug_tilt_range_degrees": [
+        0.6747743338937309,
+        14.034359080110452
+      ]
+    },
+    {
+      "clip_id": "s6__mug_toast_1",
+      "cache_sha256": "17598ef168e741b8e3bf3002a671bb2ec7f53d3c0241cbc120182ab94ccdc3eb",
+      "cache_schema_version": 2,
+      "frames": 224,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000066,
+        "position_lag_mean_m": 0.009475614808594487,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.220209231232408,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": -1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.04820756120213832,
+          0.06636206654874707
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.636884392736532,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.68624788914762,
+      "handle_plane_alignment_p10": 0.8243293496029496,
+      "handle_plane_alignment_mean": 0.837431273269806,
+      "source_mug_tilt_range_degrees": [
+        0.6406441961746157,
+        17.951154524161517
+      ]
+    },
+    {
+      "clip_id": "s7__mug_drink_1",
+      "cache_sha256": "027e84195ee440b3c36db9a1a1558c87d1211ae156044feed2fd3ea346f8d6fb",
+      "cache_schema_version": 2,
+      "frames": 228,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.009590914516548902,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.000000000000001,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.06241812961560922,
+          0.06353290478115314
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6586772957766032,
+      "max_overview_screen_norm": 0.9090909090909094,
+      "handle_plane_alignment_min": 0.7992997531054111,
+      "handle_plane_alignment_p10": 0.8326400577678977,
+      "handle_plane_alignment_mean": 0.8703684940571352,
+      "source_mug_tilt_range_degrees": [
+        0.4328859611979227,
+        131.46038973345378
+      ]
+    },
+    {
+      "clip_id": "s7__mug_drink_2",
+      "cache_sha256": "4199be4d63bfd82a7eb3e96ed36821d7662b72f1a78f3c0f2fc0836ab6867512",
+      "cache_schema_version": 2,
+      "frames": 268,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000094,
+        "position_lag_mean_m": 0.0076539436516275166,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.027255780167299758,
+          0.0687587284728565
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6065272751489514,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.6889659172822872,
+      "handle_plane_alignment_p10": 0.7373021606448432,
+      "handle_plane_alignment_mean": 0.8329506019383409,
+      "source_mug_tilt_range_degrees": [
+        0.05073374224149818,
+        86.07581527391864
+      ]
+    },
+    {
+      "clip_id": "s7__mug_lift",
+      "cache_sha256": "ca34d372b79479c39a0b31fe73ad38a57b673bd8c73a79544af3d55c6ee06c09",
+      "cache_schema_version": 2,
+      "frames": 682,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000114,
+        "position_lag_mean_m": 0.012575218592165613,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.023622856051125393,
+          0.06981210344891332
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6801364380205348,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.7306789028656903,
+      "handle_plane_alignment_p10": 0.7998223410375799,
+      "handle_plane_alignment_mean": 0.8414932971250099,
+      "source_mug_tilt_range_degrees": [
+        0.01818052172409915,
+        31.322331316324718
+      ]
+    },
+    {
+      "clip_id": "s8__mug_drink_1",
+      "cache_sha256": "affc88ffdb68b9cc263ac2620055f168cab4d07646b05eb44257859e3ec31eed",
+      "cache_schema_version": 2,
+      "frames": 220,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000011,
+        "position_lag_mean_m": 0.01276449695189017,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.05703187626084421,
+          0.07457755588222158
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6702254602596432,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.7432702647816505,
+      "handle_plane_alignment_p10": 0.8289389740484886,
+      "handle_plane_alignment_mean": 0.8524093263442747,
+      "source_mug_tilt_range_degrees": [
+        0.19542217356222236,
+        114.46701565656069
+      ]
+    },
+    {
+      "clip_id": "s8__mug_drink_2",
+      "cache_sha256": "be88659b25976f564054de1768acc723121a61d0ff4c764fa4c050887b9d20b8",
+      "cache_schema_version": 2,
+      "frames": 263,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000011,
+        "position_lag_mean_m": 0.010580322759767804,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.02448673335112302,
+          0.07549231876729234
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6298052456748747,
+      "max_overview_screen_norm": 0.9090909090909094,
+      "handle_plane_alignment_min": 0.6233925958446267,
+      "handle_plane_alignment_p10": 0.7903201254577727,
+      "handle_plane_alignment_mean": 0.8416552979169851,
+      "source_mug_tilt_range_degrees": [
+        0.26386744656773536,
+        75.02824519345312
+      ]
+    },
+    {
+      "clip_id": "s8__mug_lift",
+      "cache_sha256": "9f27a752ab0b242a150ff9f23fc02af3f80c9d37ee2e8694765d627785015e09",
+      "cache_schema_version": 2,
+      "frames": 459,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000011,
+        "position_lag_mean_m": 0.00817372617392745,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.2896906979028095,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.01734908015013028,
+          0.058736854393354396
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5765504006052382,
+      "max_overview_screen_norm": 0.9090909090909095,
+      "handle_plane_alignment_min": 0.7570737910928788,
+      "handle_plane_alignment_p10": 0.8382064243304922,
+      "handle_plane_alignment_mean": 0.8473989436357569,
+      "source_mug_tilt_range_degrees": [
+        0.14697644846561095,
+        20.169172740143832
+      ]
+    },
+    {
+      "clip_id": "s8__mug_offhand_1",
+      "cache_sha256": "97a2619c9281de9e5fbb5e4a7521da6929374c444129f96fe03c3d9e8166c512",
+      "cache_schema_version": 2,
+      "frames": 272,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000009,
+        "position_lag_mean_m": 0.012103416134694154,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.893198816031121,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 12,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.055346849583702805,
+          0.07388188353409775
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6803869141825165,
+      "max_overview_screen_norm": 0.90909090909091,
+      "handle_plane_alignment_min": 0.014692320104340129,
+      "handle_plane_alignment_p10": 0.5454148343962015,
+      "handle_plane_alignment_mean": 0.7738812306768104,
+      "source_mug_tilt_range_degrees": [
+        0.5473177054982847,
+        94.04923757374364
+      ]
+    },
+    {
+      "clip_id": "s8__mug_pass_1",
+      "cache_sha256": "058dce60e8b6f118fe71f388b6aa68efe6655469e7b51cafaf7d378821d4c00c",
+      "cache_schema_version": 2,
+      "frames": 245,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000008,
+        "position_lag_mean_m": 0.010628182523361847,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": -1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.06851041797460872,
+          0.059102842454684536
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6583110951256884,
+      "max_overview_screen_norm": 0.9090909090909093,
+      "handle_plane_alignment_min": 0.5106157353468065,
+      "handle_plane_alignment_p10": 0.7501855499887126,
+      "handle_plane_alignment_mean": 0.8164343254185797,
+      "source_mug_tilt_range_degrees": [
+        0.7314871887776082,
+        23.17177159697457
+      ]
+    },
+    {
+      "clip_id": "s8__mug_toast_1",
+      "cache_sha256": "561424df61e0b9f4ea4f4f693f15e920f78e74e17f5cb20006cdb463266be163",
+      "cache_schema_version": 2,
+      "frames": 203,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.0350000000000001,
+        "position_lag_mean_m": 0.009680653011792054,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.03955102737817283,
+          0.062040483079298984
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6520687688348905,
+      "max_overview_screen_norm": 0.9090909090909101,
+      "handle_plane_alignment_min": 0.6287510619800898,
+      "handle_plane_alignment_p10": 0.7913363098347281,
+      "handle_plane_alignment_mean": 0.8432737432138984,
+      "source_mug_tilt_range_degrees": [
+        0.8011938260594967,
+        26.2695672996215
+      ]
+    },
+    {
+      "clip_id": "s9__mug_drink_2",
+      "cache_sha256": "e179221ec8d9b4ae5da1091addaa1c5c29e29f98766a9547d1b7f6c95ffbdf99",
+      "cache_schema_version": 2,
+      "frames": 273,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.03500000000000008,
+        "position_lag_mean_m": 0.007931256538845407,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 2.9999999999999916,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.03051870573503123,
+          0.06831670623011857
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.6063540510991988,
+      "max_overview_screen_norm": 0.9090909090909096,
+      "handle_plane_alignment_min": 0.7644124623661804,
+      "handle_plane_alignment_p10": 0.823845477548258,
+      "handle_plane_alignment_mean": 0.8474774656922373,
+      "source_mug_tilt_range_degrees": [
+        0.2674937690045026,
+        71.36202027079763
+      ]
+    },
+    {
+      "clip_id": "s9__mug_pass_1",
+      "cache_sha256": "504a997b87563ea186469b8413622f2ed96095bfb70b376ec4643f3c62d60791",
+      "cache_schema_version": 2,
+      "frames": 228,
+      "tracking": {
+        "method": "World-space translation follow and yaw-only handle tracking; no object or hand vertex changes",
+        "trajectory": "detail_frames contains the shared per-frame camera trajectory for both columns",
+        "world_up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_elevation_degrees": 26.35674651543453,
+        "playback_fps": 30.0,
+        "position_smoothing_time_constant_seconds": 0.1,
+        "position_lag_limit_m": 0.035,
+        "position_lag_max_m": 0.035000000000000135,
+        "position_lag_mean_m": 0.011916527873266263,
+        "yaw_smoothing_time_constant_seconds": 0.2,
+        "yaw_speed_limit_degrees_per_second": 90.0,
+        "yaw_max_step_degrees": 3.0000000000000044,
+        "vertical_normal_freeze_enter_horizontal_norm": 0.15,
+        "vertical_normal_freeze_exit_horizontal_norm": 0.3,
+        "vertical_normal_frozen_frames": 0,
+        "initial_handle_plane_side": 1,
+        "handle_plane_side_changes_after_vertical_degeneracy": 0,
+        "canonical_target_offset_m": [
+          0.012,
+          0.0,
+          0.0
+        ],
+        "mug_center_screen_span_m": [
+          0.06515719145525511,
+          0.04538843218523378
+        ],
+        "object_pitch_roll": "Unmodified source world motion; camera never copies object pitch or roll"
+      },
+      "max_object_screen_norm": 0.5368131378334049,
+      "max_overview_screen_norm": 0.9090909090909093,
+      "handle_plane_alignment_min": 0.6082732990400784,
+      "handle_plane_alignment_p10": 0.8278359430490433,
+      "handle_plane_alignment_mean": 0.8411358288178099,
+      "source_mug_tilt_range_degrees": [
+        0.5448428046084767,
+        24.24067310673817
+      ]
+    }
+  ]
+}

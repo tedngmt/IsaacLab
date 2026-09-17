@@ -88,3 +88,28 @@ _build
 
 # Superpowers (Claude Code plugin artifacts)
 docs/superpowers/
+
+# Generated local experiment artifacts (keep source scripts and documentation)
+/_local/**/cache/
+/_local/**/prepared/
+/_local/**/share/
+/_local/**/share_qa/
+/_local/**/geometry/
+/_local/**/checkpoints/
+/_local/**/supplemental/reference/
+/_local/**/supplemental/soma/
+/_local/**/supplemental/reports/
+/_local/**/*.npz
+/_local/**/*.npy
+/_local/**/*.pkl
+/_local/**/*.pt
+/_local/**/*.pth
+/_local/**/*.bin
+/_local/**/*.mp4
+/_local/**/*.png
+/_local/**/*.zip
+/_local/**/*.sha256
+
+# Windows download metadata exposed as separate files through WSL
+*:Zone.Identifier
+*.Zone.Identifier

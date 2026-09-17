@@ -152,6 +152,11 @@ single demo is an integrity check, not a storage-performance benchmark.
 
 ## Scope
 
+A separate GraspXL mug fine-tuning pilot is now available in
+[the GraspXL pilot folder](../graspxl_mug/README.md). It has its own data adapter,
+checkpoint, generated motion, and IsaacLab replay; the launcher documented here
+continues to run the original GRAB demo.
+
 This setup runs the released **GRAB** checkpoint on GRAB's mug. It does not yet
 adapt the GraspXL mug, train on GraspXL/SOMA, reproduce paper benchmark scores,
 or establish physical grasp stability. GraspXL requires its actual mesh, matching

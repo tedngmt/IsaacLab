@@ -18,6 +18,14 @@ See [the local setup and result](../text2hoi/INSTALLATION.md). OpenHOI checkpoin
 availability remains unresolved. GraspXL adaptation and benchmark evaluation
 below are still pending; the GRAB demo is not a GraspXL performance result.
 
+Later on 2026-09-17, a separate [GraspXL mug pilot](../graspxl_mug/README.md)
+validated the MANO/object adapter and completed 20 Text2HOI fine-tuning updates.
+It uses 10 mug sequences for training and five for sequence-level validation.
+The saved object-level benchmark manifest remains unchanged. Because its mug UID
+belongs to validation, this pilot checkpoint is ineligible for an untrained-on-mug
+evaluation under that protocol. No benchmark performance claim follows from the
+pilot's denoising loss or kinematic IsaacLab replay.
+
 ## Task and experimental order
 
 1. Start with MANO: object geometry and a simple grasp instruction produce a

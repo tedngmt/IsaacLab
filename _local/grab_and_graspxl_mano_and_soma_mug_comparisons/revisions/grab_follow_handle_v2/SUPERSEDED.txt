@@ -1,0 +1,1 @@
+This single preview used the previous incorrect GRAB object rotation. Do not use it to assess dataset contact quality. Corrected exports are in grab_follow_handle_v3 and will replace share/GRAB.

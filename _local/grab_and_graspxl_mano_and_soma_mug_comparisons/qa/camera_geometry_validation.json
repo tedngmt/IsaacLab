@@ -1,0 +1,1124 @@
+{
+  "validated_clips": 62,
+  "expected_clips": 62,
+  "passed": true,
+  "method": "CPU independent projection of all original/SOMA vertices and transformed mug AABB corners, all cached frames; exact scene-index recovery and uint32 preservation",
+  "clips": [
+    {
+      "dataset": "GRAB",
+      "clip_id": "s1__mug_drink_1",
+      "frames": 334,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5472752531091046,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.4162227489471235,
+        2.5837772510528767
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s1__mug_drink_2",
+      "frames": 377,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5538953279016057,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.4218700283843804,
+        2.5781299716156205
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s1__mug_drink_3",
+      "frames": 309,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5608415993243583,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.4455841495872748,
+        2.5544158504127257
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s1__mug_drink_4",
+      "frames": 300,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5003375903491392,
+      "overview_max_normalized_y": 0.90909090909091,
+      "depth_m": [
+        1.4064071402206528,
+        2.5935928597793474
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s1__mug_lift",
+      "frames": 1062,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5865982181723838,
+      "overview_max_normalized_y": 0.9090909090909098,
+      "depth_m": [
+        1.3920511392457595,
+        2.607948860754241
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s1__mug_offhand_1",
+      "frames": 274,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6097528162004681,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.3879651385332266,
+        2.612034861466774
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s1__mug_pass_1",
+      "frames": 234,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.8478169172883148,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.4106918273816063,
+        2.5893081726183946
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s1__mug_toast_1",
+      "frames": 337,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6414129905109146,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.2580491412138681,
+        2.7419508587861325
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s10__mug_drink_1",
+      "frames": 202,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6363579568137846,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.399380090374224,
+        2.600619909625777
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s10__mug_drink_2",
+      "frames": 220,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6815041624374012,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.411434556446517,
+        2.588565443553484
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s10__mug_lift",
+      "frames": 571,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6547184574093644,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.3738097440827886,
+        2.626190255917212
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s10__mug_pass_1",
+      "frames": 196,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6899039023318864,
+      "overview_max_normalized_y": 0.9090909090909093,
+      "depth_m": [
+        1.1920268834536223,
+        2.8079731165463784
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s10__mug_toast_1",
+      "frames": 181,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6668224377770422,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.3037625858853295,
+        2.696237414114671
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s2__mug_drink_1",
+      "frames": 249,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5350622235124759,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.3483618893246718,
+        2.6516381106753295
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s2__mug_drink_2",
+      "frames": 286,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5898948300516625,
+      "overview_max_normalized_y": 0.9090909090909098,
+      "depth_m": [
+        1.3443496472541325,
+        2.655650352745868
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s2__mug_lift",
+      "frames": 502,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6240337343708589,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.3662249377119768,
+        2.633775062288024
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s2__mug_pass_1",
+      "frames": 259,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6542375751145199,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.426190702017431,
+        2.57380929798257
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s2__mug_toast_1",
+      "frames": 239,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5405481648073637,
+      "overview_max_normalized_y": 0.9090909090909093,
+      "depth_m": [
+        1.2724519484931052,
+        2.7275480515068957
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s3__mug_drink_1",
+      "frames": 239,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5536701921824076,
+      "overview_max_normalized_y": 0.9090909090909098,
+      "depth_m": [
+        1.3345320164617176,
+        2.6654679835382833
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s3__mug_drink_2",
+      "frames": 206,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5305448739069205,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.3142572947868152,
+        2.6857427052131855
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s3__mug_drink_3",
+      "frames": 229,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5484953286547302,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.3072555537070913,
+        2.6927444462929095
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s3__mug_drink_4",
+      "frames": 226,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.540612183495767,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.3575302408908672,
+        2.6424697591091335
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s3__mug_offhand_1",
+      "frames": 246,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5215282713147891,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.3931141423736524,
+        2.6068858576263487
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s3__mug_pass_1",
+      "frames": 283,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6934830177271354,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.412516071808897,
+        2.5874839281911037
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s4__mug_drink_2",
+      "frames": 181,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6468618630024939,
+      "overview_max_normalized_y": 0.9090909090909101,
+      "depth_m": [
+        1.497053572384903,
+        2.5029464276150977
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s4__mug_pass_1",
+      "frames": 156,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.7170504922472192,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.538103310277755,
+        2.4618966897222463
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s5__mug_drink_1",
+      "frames": 182,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5559320304366607,
+      "overview_max_normalized_y": 0.90909090909091,
+      "depth_m": [
+        1.3937794092719966,
+        2.606220590728004
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s5__mug_pass_1",
+      "frames": 202,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6366190064850872,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.5175587258747307,
+        2.4824412741252706
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s5__mug_toast_1",
+      "frames": 201,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5867978114888978,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.1881705806263203,
+        2.81182941937368
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s6__mug_drink_2",
+      "frames": 259,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5197172576895056,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.347891679390433,
+        2.6521083206095675
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s6__mug_lift",
+      "frames": 581,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5269427884618213,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.3231898349623583,
+        2.6768101650376424
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s6__mug_pass_1",
+      "frames": 283,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5355188372358629,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.2848451428789496,
+        2.715154857121051
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s6__mug_toast_1",
+      "frames": 224,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.4953001505688547,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.1710036733867142,
+        2.8289963266132867
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s7__mug_drink_1",
+      "frames": 228,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.49721863563271795,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.2727009564460117,
+        2.727299043553989
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s7__mug_drink_2",
+      "frames": 268,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.4936545748321118,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.3292911734494226,
+        2.6707088265505785
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s7__mug_lift",
+      "frames": 682,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5337500935761497,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.2263334229092844,
+        2.773666577090716
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s8__mug_drink_1",
+      "frames": 220,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6256314838707,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.4124078764812105,
+        2.58759212351879
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s8__mug_drink_2",
+      "frames": 263,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5808863528461857,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.3947439912878923,
+        2.605256008712108
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s8__mug_lift",
+      "frames": 459,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6203067360174745,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.3789971352900767,
+        2.621002864709924
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s8__mug_offhand_1",
+      "frames": 272,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.644463804062756,
+      "overview_max_normalized_y": 0.90909090909091,
+      "depth_m": [
+        1.364991469289429,
+        2.635008530710572
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s8__mug_pass_1",
+      "frames": 245,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.9090909090909092,
+      "overview_max_normalized_y": 0.8952588536663216,
+      "depth_m": [
+        1.4179010858465466,
+        2.582098914153454
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s8__mug_toast_1",
+      "frames": 203,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.6892942370580155,
+      "overview_max_normalized_y": 0.9090909090909102,
+      "depth_m": [
+        1.1382931569610226,
+        2.8617068430389776
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s9__mug_drink_2",
+      "frames": 273,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.5914285196426974,
+      "overview_max_normalized_y": 0.9090909090909103,
+      "depth_m": [
+        1.3756588957366342,
+        2.624341104263366
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GRAB",
+      "clip_id": "s9__mug_pass_1",
+      "frames": 228,
+      "triangles": {
+        "original": 3076,
+        "soma": 2844,
+        "object": 61168
+      },
+      "overview_max_normalized_x": 0.9090909090909092,
+      "overview_max_normalized_y": 0.9083854244073047,
+      "depth_m": [
+        1.3942262803216814,
+        2.605773719678319
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_1__1",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.17828018085606365,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.7184336336022532,
+        2.2815663663977475
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_1__2",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.40225665084403095,
+      "overview_max_normalized_y": 0.9090909090909098,
+      "depth_m": [
+        1.8166524407111593,
+        2.1833475592888414
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_1__3",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.2610854076985613,
+      "overview_max_normalized_y": 0.9090909090909098,
+      "depth_m": [
+        1.757899707244436,
+        2.242100292755565
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_1__4",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.5814806591756229,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.6809987179117702,
+        2.3190012820882306
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_1__5",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.2341874501284715,
+      "overview_max_normalized_y": 0.9090909090909097,
+      "depth_m": [
+        1.8128817284232652,
+        2.187118271576735
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_2__mano_1",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.42724284304441906,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.8005732062000175,
+        2.199426793799983
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_2__mano_2",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.3338152666096197,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.8095408681244278,
+        2.190459131875573
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_2__mano_3",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.5004550022177527,
+      "overview_max_normalized_y": 0.90909090909091,
+      "depth_m": [
+        1.6570587082868167,
+        2.3429412917131835
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_2__mano_4",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.315472625103378,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.8213206393851724,
+        2.178679360614828
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_2__mano_5",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.1887985895151453,
+      "overview_max_normalized_y": 0.9090909090909095,
+      "depth_m": [
+        1.6794362722838092,
+        2.320563727716191
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_3__mano_1",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.5246299337415453,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.8341643582843192,
+        2.165835641715681
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_3__mano_2",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.4818847989390546,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.7720378808482162,
+        2.2279621191517847
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_3__mano_3",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.3987514962982391,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.7989914441834078,
+        2.201008555816593
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_3__mano_4",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.16715716068160485,
+      "overview_max_normalized_y": 0.9090909090909094,
+      "depth_m": [
+        1.7833435888588671,
+        2.2166564111411335
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "mano_dataset_3__mano_5",
+      "frames": 155,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.2051489923502053,
+      "overview_max_normalized_y": 0.9090909090909093,
+      "depth_m": [
+        1.856544517746229,
+        2.143455482253772
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "tabletop_large__mano_0",
+      "frames": 100,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.425273601430575,
+      "overview_max_normalized_y": 0.9090909090909093,
+      "depth_m": [
+        1.8489428098721654,
+        2.151057190127835
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "tabletop_large__mano_1",
+      "frames": 100,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.2354098037115148,
+      "overview_max_normalized_y": 0.9090909090909096,
+      "depth_m": [
+        1.8865384776651473,
+        2.113461522334853
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    },
+    {
+      "dataset": "GraspXL",
+      "clip_id": "tabletop_large__mano_2",
+      "frames": 100,
+      "triangles": {
+        "original": 1538,
+        "soma": 5692,
+        "object": 3000
+      },
+      "overview_max_normalized_x": 0.23637488159306858,
+      "overview_max_normalized_y": 0.9090909090909092,
+      "depth_m": [
+        1.8702063478722835,
+        2.129793652127717
+      ],
+      "all_overview_geometry_inside": true,
+      "all_native_triangles_preserved": true
+    }
+  ]
+}
