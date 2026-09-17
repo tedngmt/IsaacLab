@@ -1,0 +1,6 @@
+{
+  "elapsed_seconds": 2.8529714369979047,
+  "error": "Nonfinite initial_state at indices [[0, 132], [0, 133], [0, 134]]",
+  "error_type": "AssertionError",
+  "passed": false
+}

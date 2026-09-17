@@ -1,0 +1,32 @@
+{
+  "checkpoint": "/home/nmt/Projects/GraspXL/raisimGymTorch/data_all/floating_mixed/full_5600_r.pt",
+  "cuda_runtime": "11.8",
+  "dimensions": {
+    "action": 51,
+    "global_state": 196,
+    "num_envs": 1,
+    "policy_observation": 304,
+    "raw_observation_left": 1,
+    "raw_observation_right": 178
+  },
+  "elapsed_seconds": 3.3161994330002926,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "headless": true,
+  "initial_state_refreshed_after_goals": true,
+  "mano_check": {
+    "skipped": true
+  },
+  "max_action_abs": 20.985265731811523,
+  "max_joint_change_rad": 0.6374020576477051,
+  "max_object_displacement_m": 0.491773396730423,
+  "max_wrist_displacement_m": 0.5217403173446655,
+  "object": "Mug_40f9a6cc6b2c3b3a78060a3a3a55e18f_body",
+  "object_height_change_m": 0.4464576244354248,
+  "passed": true,
+  "policy_steps": 140,
+  "policy_updates": 0,
+  "reward_sum": 81.43080001871567,
+  "seed": 1,
+  "simulation_duration_s": 1.4000000000000001,
+  "torch_version": "2.3.0+cu118"
+}
