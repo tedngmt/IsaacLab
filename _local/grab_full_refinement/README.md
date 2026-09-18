@@ -54,6 +54,28 @@ Both video columns use the same standard MANO shape; they are not SOMA compariso
 
 ## Running and monitoring
 
+### Lower sustained load in a warm room
+
+```bash
+cd /home/nmt/Projects/IsaacLab/_local/grab_full_refinement
+/home/nmt/miniconda3/envs/text2hoi/bin/python control.py cool  # 50% active time
+/home/nmt/miniconda3/envs/text2hoi/bin/python control.py eco   # 25% active time
+/home/nmt/miniconda3/envs/text2hoi/bin/python control.py full  # no extra idle time
+```
+
+Choose one mode. Settings persist in `cooling_settings.json` and are reread after
+every training microbatch, so changes work while the updated trainer is running.
+They do not start a stopped run: use `control.py resume` when ready.
+Cool inserts roughly one second of idle time per second of computation; Eco
+inserts three. Expect approximately 2× or 4× the remaining training time,
+respectively, although hardware throttling and other work affect actual timings.
+
+The GPU is synchronized before sleeping. Model weights, optimizer, sampling,
+batch size, learning rate, and checkpoint resume protocol are unchanged.
+This lowers sustained load; it is not an instantaneous utilization, power, or
+temperature cap, and memory remains allocated while idling. This setting applies
+to training, not the later video-rendering stage.
+
 From Ubuntu, use these commands (no Conda activation needed):
 
 ```bash

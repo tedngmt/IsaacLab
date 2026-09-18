@@ -99,14 +99,19 @@ def main():
         torch.set_rng_state(state["rng_torch"].cpu())
         torch.cuda.set_rng_state_all([v.cpu() for v in state["rng_cuda"]])
     started = time.monotonic()
+    from cooling import CoolingThrottle
+
+    cooling = CoolingThrottle()
     print(json.dumps(protocol), flush=True)
     for epoch in range(start_epoch, epochs):
         refiner.train()
         totals = []
         update_start = time.monotonic()
+        update_idle = 0.0
         for batch_index, item in enumerate(loader):
             if batch_index >= batches_per_epoch * micro_per_step:
                 break
+            micro_start = time.monotonic()
             item = {k: v.cuda() if torch.is_tensor(v) else v for k, v in item.items()}
             target_left, target_right, obj = (item[k] for k in ("x_lhand", "x_rhand", "x_obj"))
             ml, mr, mo = (item[k] for k in ("valid_mask_lhand", "valid_mask_rhand", "valid_mask_obj"))
@@ -180,6 +185,9 @@ def main():
             if len(penetration_parts) != 2:
                 raise RuntimeError("Expected two upstream penetration loss components")
             accumulator.add(losses, penetration_parts, args.batch_size)
+            # Finish queued GPU work before idling; only wall-clock time changes.
+            torch.cuda.synchronize()
+            update_idle += cooling.wait(time.monotonic() - micro_start)
             if (batch_index + 1) % micro_per_step:
                 continue
             value = accumulator.step(optimizer)
@@ -194,9 +202,12 @@ def main():
                 seconds=time.monotonic() - update_start,
                 peak_gpu_gib=torch.cuda.max_memory_allocated() / 2**30,
                 elapsed_seconds=time.monotonic() - started,
+                cooling_active_percent=cooling.duty,
+                cooling_idle_seconds=update_idle,
             )
             print(json.dumps(record), flush=True)
             update_start = time.monotonic()
+            update_idle = 0.0
             with (output / "steps.jsonl").open("a") as stream:
                 stream.write(json.dumps(record) + "\n")
             if args.probe_steps and step >= args.probe_steps:

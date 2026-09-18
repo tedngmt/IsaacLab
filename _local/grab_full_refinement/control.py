@@ -12,6 +12,8 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
+from cooling import read_duty, set_duty
+
 LOCAL = Path(__file__).resolve().parent
 PYTHON = "/home/nmt/miniconda3/envs/text2hoi/bin/python"
 
@@ -46,14 +48,20 @@ def latest_step():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("action", choices=("status", "pause", "resume"))
+    parser.add_argument("action", choices=("status", "pause", "resume", "cool", "eco", "full"))
     args = parser.parse_args()
     state_path = LOCAL / "pipeline_status.json"
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
     active = active_pipeline(state)
-    if args.action == "status":
+    if args.action in ("cool", "eco", "full"):
+        duty = {"cool": 50, "eco": 25, "full": 100}[args.action]
+        set_duty(duty)
+        print(f"Training active-time target: {duty}%. The remainder is cooling idle time.")
+        print("Applies at the next microbatch and persists after pause/resume. Checkpoints are unchanged.")
+    elif args.action == "status":
         print("Pipeline: " + ("RUNNING" if active else "NOT RUNNING"))
         print("Last recorded stage: " + state.get("stage", "unknown"))
+        print(f"Cooling active-time target: {read_duty()}% (not a hardware utilization or temperature cap)")
         step = latest_step()
         if step:
             print(
