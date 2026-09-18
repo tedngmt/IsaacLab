@@ -1,0 +1,17 @@
+{
+  "epochs": 650,
+  "batch_size": 64,
+  "num_workers": 0,
+  "training_clips": 1335,
+  "batches_per_epoch": 20,
+  "learning_rate": 0.0001,
+  "loss_weights": {
+    "lambda_simple": 1.0,
+    "lambda_penet": 1.0,
+    "lambda_contact": 5.0
+  },
+  "initialization": "upstream zero_initialized=True; no pretrained refiner",
+  "checkpoint_selection": "lowest training loss; no held-out validation",
+  "periodic_generation_demo": "deferred; not part of gradient computation",
+  "probe_only": true
+}

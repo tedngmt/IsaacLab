@@ -1,0 +1,2 @@
+{"epoch": 1, "batch": 1, "step": 1, "loss": 0.032316654920578, "seconds": 5.528307884999776, "peak_gpu_gib": 0.8014521598815918, "elapsed_seconds": 5.5365655639998295}
+{"epoch": 1, "batch": 2, "step": 2, "loss": 0.1860724240541458, "seconds": 0.22710725199976878, "peak_gpu_gib": 0.9576892852783203, "elapsed_seconds": 5.7867677240001285}
