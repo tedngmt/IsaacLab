@@ -7,7 +7,6 @@
 import copy
 
 import torch
-
 from accumulation import BatchAccumulator
 
 torch.manual_seed(42)
@@ -26,10 +25,10 @@ expected.backward()
 optim_full.step()
 accumulator = BatchAccumulator(chunked, 6, weights)
 for start in range(0, 6, 2):
-    y = chunked(x[start:start + 2])
+    y = chunked(x[start : start + 2])
     parts = []
     for side in range(2):
-        selected = mask[start:start + 2, side]
+        selected = mask[start : start + 2, side]
         parts.append((y[:, side][selected].square().sum(), int(selected.sum())))
     accumulator.add(dict(simple_loss=y.square().mean(), contact_loss=y.abs().mean()), parts, 2)
 actual = accumulator.step(optim_chunked)

@@ -26,8 +26,10 @@ class BatchAccumulator:
         self.samples = 0
 
     def add(self, losses, penetration_parts, sample_count):
-        base = (losses["simple_loss"] * self.weights["lambda_simple"]
-                + losses["contact_loss"] * self.weights["lambda_contact"])
+        base = (
+            losses["simple_loss"] * self.weights["lambda_simple"]
+            + losses["contact_loss"] * self.weights["lambda_contact"]
+        )
         components = [base * sample_count / self.effective_batch]
         for side, (numerator, denominator) in enumerate(penetration_parts):
             components.append(numerator * self.weights["lambda_penet"])
@@ -37,8 +39,9 @@ class BatchAccumulator:
             self.values[component_index] += float(component.detach())
             if not component.requires_grad:
                 continue
-            gradients = torch.autograd.grad(component, self.parameters, retain_graph=component_index < 2,
-                                            allow_unused=True)
+            gradients = torch.autograd.grad(
+                component, self.parameters, retain_graph=component_index < 2, allow_unused=True
+            )
             finite = [torch.isfinite(g).all() for g in gradients if g is not None]
             if finite and not torch.stack(finite).all():
                 raise FloatingPointError("Nonfinite gradient; optimizer not advanced")
