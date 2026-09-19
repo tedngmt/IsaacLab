@@ -19,7 +19,7 @@ os.environ.setdefault("LP_NUM_THREADS", "4")
 import cv2
 import numpy as np
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "grab_and_graspxl_mano_and_soma_mug_comparisons"))
+sys.path.insert(0, str(Path(__file__).resolve().parent / "render_helpers"))
 from camera import _camera_spec, _grab_detail_specs
 from render_gl import GLRenderer
 

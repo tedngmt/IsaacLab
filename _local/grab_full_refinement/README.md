@@ -52,6 +52,10 @@ Exports cover all released sequences at 30 FPS, including their entire retained
 interval, but not the discarded lead-in and trailing frames of the raw archives.
 Both video columns use the same standard MANO shape; they are not SOMA comparisons.
 
+The renderer's required camera/EGL helpers are bundled in `render_helpers/`.
+They were recovered from commit `20a903478^` after the older comparison folder
+was removed, so export no longer depends on that older experiment's directory.
+
 ## Running and monitoring
 
 ### Lower sustained load in a warm room
